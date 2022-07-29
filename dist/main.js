@@ -1,0 +1,1 @@
+document.body.appendChild(function(){const e=document.createElement("div"),n=document.createElement("button");return e.innerHTML=_.join(["Hello","webpack"]," "),n.innerHTML="Click me and check the console!",n.onclick=printMe,e.appendChild(n),e}());
