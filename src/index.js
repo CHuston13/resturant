@@ -1,9 +1,19 @@
 import _ from 'lodash';
 
-function buttonCreate() {
-   const x = document.createElement("BUTTON");
-x.innerHTML=("New Button")
-   x.appendChild(t);
-   return buttonCreate();
-}
-document.body.appendChild(x);
+
+ function component() {
+  const element = document.createElement('button');
+  let e = document.createTextNode('hey');
+  element.appendChild(e)
+
+   
+  
+   
+
+
+  // Lodash, now imported by this script
+  
+   return element  ;
+ }
+const currentDiv = document.getElementById('content')
+ document.body.appendChild(component());
