@@ -1,13 +1,9 @@
+import _ from 'lodash';
 
-
-function component() {
-   component=document.getElementById('content');
-   const element = document.createElement('div');
-   const btn = document.createElement('button');
-   element.innerHTML = ("hello" , " ");
-   return element
-
-  
-  }
-  
-  document.body.appendChild(component());
+function buttonCreate() {
+   const x = document.createElement("BUTTON");
+x.innerHTML=("New Button")
+   x.appendChild(t);
+   return buttonCreate();
+}
+document.body.appendChild(x);
