@@ -11,8 +11,9 @@ import './style.css';
 
    // Lodash, now imported by this script
 
-  element.classList.add('hello','*',)
-  b.classList.add('hello')
+  element.classList.add('hello','*','html')
+  b.classList.add('good')
+  
    return element;
  }
 

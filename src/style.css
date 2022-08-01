@@ -1,22 +1,30 @@
 *{
      
-        margin: 0; 
-        padding: 0; 
-        box-sizing:border-box;
-        background-color: black; 
-    
+  margin: 0; 
+  padding: 0; 
+  box-sizing:border-box;
+  
+
 
 }
+html{
+background-color: black;
+}
 
-    
 
 
 .hello{
-    display: flex;
-  background-color: white;
-   
-   
-    
-   
-    
+display: flex;
+background-color: black;
+
+
+
+
+
+}
+
+.good{
+color: aliceblue;
+outline: none;
+
 }
