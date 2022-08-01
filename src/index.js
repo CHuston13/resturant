@@ -4,12 +4,15 @@ import './style.css';
 
  function component() {
    const element = document.createElement('div');
+   const b = document.createElement('button');
+   const t = document.createTextNode('Home');
+   element.appendChild(b)
+   b.appendChild(t);
 
    // Lodash, now imported by this script
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-  element.classList.add('hello');
-
+  element.classList.add('hello','*',)
+  b.classList.add('hello')
    return element;
  }
 
