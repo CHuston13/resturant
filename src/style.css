@@ -8,16 +8,21 @@
 
 }
 html{
-background-color: black;
+background:linear-gradient(  rgb(98, 0, 255),#daa520);
+opacity: .5;
+box-shadow: 500px;
+
+
 }
 
 
 
 .hello{
 display: flex;
-background-color: black;
-color:white;
 
+
+
+background-color: black
 
 
 
@@ -25,16 +30,23 @@ color:white;
 }
 
 .good{
+ 
+background: linear-gradient(#ff0303, #DAA520);
 color: black;
 outline: none;
 margin-left: 600px;
 width: 75px;
-border-radius: 50px;
+border-radius: 10%;
 border: none;
+height: 100px;
+opacity: 100%;
+margin-top: 50px;
 
 
 }
 
 .good:hover{
- color: blue;
+  transform: scale(1.5);
+ 
 }
+
