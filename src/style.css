@@ -8,37 +8,34 @@
 
 }
 html{
-background:linear-gradient(  rgb(98, 0, 255),#daa520);
-opacity: .5;
-box-shadow: 500px;
-
-
+background-color: black;
 }
 
 
 
 .hello{
-display: flex;
 
-
-
-background-color: black
-
-
-
+background-color: black;
+border: none;
 
 }
+.hello:focus{
+  border: none;
+  outline: none;
+}
+
+
 
 .good{
  
-background: linear-gradient(#ff0303, #DAA520);
-color: black;
+background: black;
+color: white;
 outline: none;
 margin-left: 600px;
-width: 75px;
+
 border-radius: 10%;
 border: none;
-height: 100px;
+
 opacity: 100%;
 margin-top: 50px;
 
