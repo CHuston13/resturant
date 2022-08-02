@@ -16,6 +16,7 @@ background-color: black;
 .hello{
 display: flex;
 background-color: black;
+color:white;
 
 
 
@@ -24,7 +25,16 @@ background-color: black;
 }
 
 .good{
-color: aliceblue;
+color: black;
 outline: none;
+margin-left: 600px;
+width: 75px;
+border-radius: 50px;
+border: none;
 
+
+}
+
+.good:hover{
+ color: blue;
 }
