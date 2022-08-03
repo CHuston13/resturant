@@ -2,7 +2,7 @@
      
   margin: 0; 
   padding: 0; 
-  box-sizing:border-box;
+
   
 
 
@@ -31,13 +31,16 @@ border: none;
 background: black;
 color: white;
 outline: none;
-margin-left: 600px;
+margin-left: 34vw;
 
-border-radius: 10%;
+font-size: 25px;
 border: none;
+text-decoration: underline;
+margin-top: 100px;
+position: absolute;
 
 opacity: 100%;
-margin-top: 50px;
+
 
 
 }
@@ -45,5 +48,21 @@ margin-top: 50px;
 .good:hover{
   transform: scale(1.5);
  
+}
+.gooda{
+background: black;
+color: white;
+outline: none;
+margin-left: 30vw;
+font-size: 75px;
+border: none;
+position: absolute;
+padding: none;
+margin-top: none;
+
+opacity: 100%;
+
+
+
 }
 
