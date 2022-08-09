@@ -1,6 +1,7 @@
 import _ from 'lodash';
 
 import './style.css';
+import Icon from './eryn.png';
 
  function component() {
    const element = document.createElement('div');
@@ -12,6 +13,14 @@ import './style.css';
    b.appendChild(t);
    element.appendChild(h);
    h.appendChild(ht);
+   const myIcon = new Image();
+
+   myIcon.src = Icon;
+ 
+ 
+   element.appendChild(myIcon);
+ 
+ 
 
    // Lodash, now imported by this script
 

@@ -8,15 +8,17 @@
 
 }
 html{
-background-color: black;
+background-color:black;
+background:url(./eryn.png) repeat none
 }
 
 
 
 .hello{
+  background-color: black;
 
-background-color: black;
 border: none;
+
 
 }
 .hello:focus{
