@@ -1,3 +1,4 @@
+const { url } = require('inspector');
 const path = require('path');
 
 module.exports = {
@@ -6,27 +7,21 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-
- module: {
-
-   rules: [
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
 
      {
 
-       test: /\.css$/i,
+       test: /\.(png|svg|jpg|jpeg|gif)$/i,
 
-       use: ['style-loader', 'css-loader'],
+       type: 'asset/resource', 
+       
 
      },
-     
-      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000',
-
-    },
-     
-   ],
-
- },
-
-
-       
-}
+    ],
+  },
+};
