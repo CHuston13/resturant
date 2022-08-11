@@ -9,13 +9,14 @@
 }
 html{
 background-color:black;
-background:url(./eryn.png) repeat none
+
 }
 
 
 
 .hello{
   background-color: black;
+  background:url(./odin.png) repeat none;
 
 border: none;
 
@@ -52,8 +53,8 @@ opacity: 100%;
  
 }
 .gooda{
-background: black;
-color: white;
+
+color: black;
 outline: none;
 margin-left: 30vw;
 font-size: 75px;
@@ -67,4 +68,10 @@ opacity: 100%;
 
 
 }
+
+.icon{
+  height: 100vh;
+  width: 100vw;
+}
+
 

@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 import './style.css';
-import Icon from './eryn.png';
+import Icon from './odin.png';
 
  function component() {
    const element = document.createElement('div');
@@ -9,6 +9,8 @@ import Icon from './eryn.png';
    const t = document.createTextNode('Home');
    const h =  document.createElement('h1');
    const ht = document.createTextNode('Huston Soul Food');
+   const p= document.createElement('p');
+   const
    element.appendChild(b);
    b.appendChild(t);
    element.appendChild(h);
@@ -27,6 +29,9 @@ import Icon from './eryn.png';
   element.classList.add('hello','*','html');
   b.classList.add('good');
   h.classList.add('gooda');
+  myIcon.classList.add('icon');
+  
+  
   
   
    return element;
