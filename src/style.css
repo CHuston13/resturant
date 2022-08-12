@@ -76,12 +76,17 @@ opacity: 100%;
   width: 100vw;
 }
 .text{
-color: white;
-  outline: none;
+color: rgb(134, 134, 32);
+font-weight: bolder;;
  position: absolute;
-margin-left: 30vw;
+margin-left: 10vw;
 font-size: 100px;
 margin-top: 40vh;
   opacity: 100%;
 }
 
+
+.twice{
+  margin-left: 20vw;
+  position: absolute;
+}

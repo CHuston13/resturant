@@ -3,6 +3,7 @@ import _ from 'lodash';
 
 import './style.css';
 import Icon from './odin.png';
+import printMe from './print.js';
 
  function component() {
    const element = document.createElement('div');
@@ -11,14 +12,24 @@ import Icon from './odin.png';
    const h =  document.createElement('h1');
    const ht = document.createTextNode('Huston Soul Food');
    const p= document.createElement('h2');
-   const pt = document.createTextNode('Food fit for Gods')
+   const pt = document.createTextNode('Food fit for Gods. Specializing in soul food since 1833')
+   const btn = document.createElement('button');
+  const btnT = document.createTextNode('test');
 
+   btn.onclick = printMe;
+ 
+ 
+   element.appendChild(btn);
+   btn.appendChild(btnT);
+ 
+ 
    element.appendChild(b);
    b.appendChild(t);
    element.appendChild(h);
    h.appendChild(ht);
    element.appendChild(p);
    p.appendChild(pt);
+   btn.classList.add('twice');
    const myIcon = new Image();
 
    myIcon.src = Icon;
