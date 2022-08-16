@@ -16,8 +16,7 @@ background-color:black;
 
 .hello{
   background-color: black;
-  background:url(./odin.png) repeat none;
-
+background: url(./odin.png) repeat none;
 border: none;
 
 

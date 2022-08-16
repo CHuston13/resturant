@@ -1,3 +1,6 @@
 export default function printMe() {
-    console.log('I get called from print.js!');
+ const p3 = document.createElement('div');
+p3.classList.add('twice');
+return p3;
+    
   }
