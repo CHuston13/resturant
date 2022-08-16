@@ -5,6 +5,8 @@ import './style.css';
 import Icon from './odin.png';
 import printMe from './print.js';
 
+const info = document.querySelector('#content');
+
  function component() {
    const element = document.createElement('div');
    const b = document.createElement('button');
@@ -14,14 +16,8 @@ import printMe from './print.js';
    const p= document.createElement('h2');
    const pt = document.createTextNode('Food fit for Gods. Specializing in soul food since 1833')
    const btn = document.createElement('button');
-  const btnT = document.createTextNode('test');
-
-   btn.onclick = printMe;
- 
- 
-   element.appendChild(btn);
-   btn.appendChild(btnT);
- 
+   
+  
  
    element.appendChild(b);
    b.appendChild(t);
@@ -29,7 +25,17 @@ import printMe from './print.js';
    h.appendChild(ht);
    element.appendChild(p);
    p.appendChild(pt);
-   btn.classList.add('twice');
+   btn.innerHTML = 'Click me and check the console!';
+
+   btn.onclick = printMe;
+ 
+ 
+   element.appendChild(btn);
+  
+ 
+ 
+
+   
    const myIcon = new Image();
 
    myIcon.src = Icon;
@@ -46,11 +52,14 @@ import printMe from './print.js';
   h.classList.add('gooda');
   myIcon.classList.add('icon');
   p.classList.add('text');
+  btn.classList.add('twice');
   
   
   
   
    return element;
+
+ 
  }
 
  document.body.appendChild(component());

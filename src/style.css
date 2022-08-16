@@ -8,15 +8,19 @@
 
 }
 html{
-background-color:black;
 
+margin: 0;
+padding: 0;
+background-color: black;
 }
 
 
 
 .hello{
-  background-color: black;
-background: url(./odin.png) repeat none;
+ 
+  background: url(./odin.png) repeat none;
+  position: absolute;
+  
 border: none;
 
 
