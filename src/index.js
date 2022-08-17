@@ -5,10 +5,12 @@ import './style.css';
 import Icon from './odin.png';
 import printMe from './print.js';
 
-const info = document.querySelector('#content');
+
 
  function component() {
+ 
    const element = document.createElement('div');
+   element.id='odin';
    const b = document.createElement('button');
    const t = document.createTextNode('Home');
    const h =  document.createElement('h1');
