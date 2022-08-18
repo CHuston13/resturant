@@ -16,7 +16,7 @@ import printMe from './print.js';
    const h =  document.createElement('h1');
    const ht = document.createTextNode('Huston Soul Food');
    const p= document.createElement('h2');
-   const pt = document.createTextNode('Food fit for Gods. Specializing in soul food since 1833')
+   const pt = document.createTextNode('Lorem Ipsum is simply dummy text of the printing and typesetting industry. ')
    const btn = document.createElement('button');
    
   
