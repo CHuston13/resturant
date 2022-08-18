@@ -27,12 +27,13 @@ import printMe from './print.js';
    h.appendChild(ht);
    element.appendChild(p);
    p.appendChild(pt);
-   btn.innerHTML = 'Click me and check the console!';
+   btn.innerHTML = 'About';
 
    btn.onclick = printMe;
  
  
    element.appendChild(btn);
+   btn.classList.add('button2');
   
  
  

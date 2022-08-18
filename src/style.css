@@ -93,3 +93,24 @@ margin-top: 40vh;
   margin-left: 20vw;
   position: absolute;
 }
+
+.button2{
+background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;   
+color: black;
+outline: none;
+margin-left: 44vw;
+
+font-size: 25px;
+border: none;
+text-decoration: underline;
+margin-top: 100px;
+position: absolute;
+
+opacity: 100%;
+}
+
+.button2:hover{
+  transform: scale(1.5);
+}
