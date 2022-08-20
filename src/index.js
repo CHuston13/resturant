@@ -17,8 +17,9 @@ import printMe from './print.js';
    const ht = document.createTextNode('Huston Soul Food');
    const p= document.createElement('h2');
    const pt = document.createTextNode('Lorem Ipsum is simply dummy text of the printing and typesetting industry. ')
-   const btn = document.createElement('button');
-   
+   const btn = document.createElement('button'); 
+   const Menu = document.createElement('button');
+    const MenuT = document.createTextNode('sfdsdfsd');
   
  
    element.appendChild(b);
@@ -28,6 +29,9 @@ import printMe from './print.js';
    element.appendChild(p);
    p.appendChild(pt);
    btn.innerHTML = 'About';
+   element.appendChild(Menu);
+   Menu.appendChild(MenuT);
+   Menu.classList.add('button2');
 
    btn.onclick = printMe;
  

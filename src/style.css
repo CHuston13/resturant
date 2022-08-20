@@ -18,9 +18,8 @@ background-color: black;
 
 .hello{
  
-  background: url(./odin.png) repeat none;
   position: absolute;
-  
+ background: url(./odin.png);
 border: none;
 
 
@@ -113,4 +112,12 @@ opacity: 100%;
 
 .button2:hover{
   transform: scale(1.5);
+}
+
+
+
+
+.about{
+ color: white;
+  position: absolute;
 }

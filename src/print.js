@@ -1,10 +1,7 @@
+import _ from 'lodash';
 
 
-
-import './style.css';
-
-
-
+import './style.css'
 export default function printMe() {
   const p3 = document.getElementById('content');
 const page2 = document.getElementById('odin');
@@ -14,13 +11,17 @@ const b2 = document.createElement('button');
 b2.id='refresh';
 b2.onclick=refreshPage;
 const bt2 = document.createTextNode('Home');
-//b2.onclick=window.location.reload();
+//all dynamic styling && appending
+p3.appendChild(page2);
 p3.appendChild(d2);
+p3.appendChild(b2);
 d2.appendChild(b2);
 b2.appendChild(bt2);
 
 
-return d2;
+
+
+return p3;
 
   }
 
@@ -29,8 +30,6 @@ return d2;
    const refresher = document.getElementById('refresh');
    refresher.onclick = window.location.reload();
   }
-
-
 
 
 
