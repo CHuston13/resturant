@@ -19,7 +19,7 @@ import printMe from './print.js';
    const pt = document.createTextNode('Lorem Ipsum is simply dummy text of the printing and typesetting industry. ')
    const btn = document.createElement('button'); 
    const Menu = document.createElement('button');
-    const MenuT = document.createTextNode('sfdsdfsd');
+    const MenuT = document.createTextNode('Menu');
   
  
    element.appendChild(b);
@@ -31,7 +31,7 @@ import printMe from './print.js';
    btn.innerHTML = 'About';
    element.appendChild(Menu);
    Menu.appendChild(MenuT);
-   Menu.classList.add('button2');
+   Menu.classList.add('button3');
 
    btn.onclick = printMe;
  

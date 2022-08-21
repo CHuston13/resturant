@@ -11,7 +11,7 @@ html{
 
 margin: 0;
 padding: 0;
-background-color: black;
+background-color: white;
 }
 
 
@@ -60,7 +60,7 @@ opacity: 100%;
 
 color: black;
 outline: none;
-margin-left: 30vw;
+margin-left: 27vw;
 font-size: 75px;
 border: none;
 position: absolute;
@@ -117,7 +117,52 @@ opacity: 100%;
 
 
 
+
 .about{
  color: white;
   position: absolute;
+}
+
+.button3{
+background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;   
+color: black;
+outline: none;
+margin-left: 54vw;
+
+font-size: 25px;
+border: none;
+text-decoration: underline;
+margin-top: 100px;
+position: absolute;
+
+opacity: 100%;}
+
+
+.button3:hover{
+  transform: scale(1.5);
+}
+
+
+.dummy{
+ 
+  position: absolute;
+  margin-left: 34vw;
+  margin-top: 23vh;
+  width: 480px;
+  height: 500px;
+   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);;
+}
+
+.textdummy{
+  text-decoration: underline;
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size:25px;
+
+}
+
+.textdummy:hover{
+transform: scale(1.2);
 }
