@@ -42,8 +42,19 @@ b4.appendChild(bt4);
 
 
 const p5 = document.createElement('li');
-const pt5 = document.createTextNode('Address -123 Alphabet Street');
-
+const pt5 = document.createTextNode('Address.)123 Alphabet Street');
+const p6 = document.createElement('li');
+const pt6 =document.createTextNode('Phone Number.) (123)-456-7890');
+const p7 = document.createElement('li');
+const pt7 = document.createTextNode('Fax.)(615)-123-4567');
+const p8 =document.createElement('li');
+const pt8 = document.createTextNode('Education.)University of Make believe ');
+d3.appendChild(p6);
+p6.appendChild(pt6);
+d3.appendChild(p7);
+d3.appendChild(p8);
+p7.appendChild(pt7);
+p8.appendChild(pt8);
 
 
 d3.appendChild(p5);
@@ -51,6 +62,9 @@ p5.appendChild(pt5);
 
 
 p5.classList.add('textdummy');
+p6.classList.add('textdummy2');
+p7.classList.add('textdummy3');
+p8.classList.add('textdummy4');
 
 
 

@@ -10,11 +10,12 @@ import printMe from './print.js';
  function component() {
  
    const element = document.createElement('div');
+   const wb = document.createElement('div');
    element.id='odin';
    const b = document.createElement('button');
    const t = document.createTextNode('Home');
    const h =  document.createElement('h1');
-   const ht = document.createTextNode('Huston Soul Food');
+   const ht = document.createTextNode('Olympus');
    const p= document.createElement('h2');
    const pt = document.createTextNode('Lorem Ipsum is simply dummy text of the printing and typesetting industry. ')
    const btn = document.createElement('button'); 
@@ -23,15 +24,17 @@ import printMe from './print.js';
   
  
    element.appendChild(b);
+   element.appendChild(wb);
    b.appendChild(t);
    element.appendChild(h);
    h.appendChild(ht);
-   element.appendChild(p);
+   wb.appendChild(p);
    p.appendChild(pt);
    btn.innerHTML = 'About';
    element.appendChild(Menu);
    Menu.appendChild(MenuT);
    Menu.classList.add('button3');
+   wb.classList.add('about');
 
    btn.onclick = printMe;
  
@@ -58,7 +61,7 @@ import printMe from './print.js';
   b.classList.add('good');
   h.classList.add('gooda');
   myIcon.classList.add('icon');
-  p.classList.add('text');
+  
   btn.classList.add('twice');
   
   

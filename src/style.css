@@ -76,14 +76,8 @@ opacity: 100%;
 .icon{
   height: 100vh;
   width: 100vw;
-}
-.text{
-color:black;
 font-weight: bolder;;
- position: absolute;
-margin-left: 10vw;
-font-size: 75px;
-margin-top: 40vh;
+
   opacity: 100%;
 }
 
@@ -119,8 +113,12 @@ opacity: 100%;
 
 
 .about{
- color: white;
+ background: linear-gradient(black, white);
   position: absolute;
+  height: 30vh;
+  width: 30vw;
+  margin-top: 30vh;
+  margin-left: 30vw;
 }
 
 .button3{
@@ -148,7 +146,7 @@ opacity: 100%;}
 .dummy{
  
   position: absolute;
-  margin-left: 34vw;
+  margin-left: 33vw;
   margin-top: 23vh;
   width: 480px;
   height: 500px;
@@ -160,9 +158,51 @@ opacity: 100%;}
   margin-left: 25px;
   margin-top: 20px;
   font-size:25px;
+  position: absolute;
 
 }
 
 .textdummy:hover{
 transform: scale(1.2);
+}
+
+.textdummy2{
+  text-decoration: underline;
+  margin-left: 25px;
+  margin-top: 10vh;
+  font-size:25px;
+  position: absolute;
+
+
+}
+
+.textdummy2:hover{
+  transform:scale(1.2);
+}
+
+.textdummy3{
+  text-decoration: underline;
+  margin-left: 25px;
+  margin-top: 17vh;
+  font-size:25px;
+  position: absolute;
+
+
+}
+
+
+.textdummy3:hover{
+transform: scale(1.2);
+}
+
+.textdummy4{
+  text-decoration: underline;
+  margin-left: 25px;
+  margin-top: 24vh;
+  font-size:25px;
+  position: absolute;
+}
+
+.textdummy4:hover{
+  transform: scale(1.2);
 }
