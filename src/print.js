@@ -4,6 +4,7 @@ import _ from 'lodash';
 import './style.css'
 
 
+
 export default function printMe() {
   const p3 = document.getElementById('content');
 const page2 = document.getElementById('odin');
@@ -19,6 +20,7 @@ const b3 = document.createElement('button');
 const b4 = document.createElement('button');
 const bt3 = document.createTextNode('About');
 const bt4 = document.createTextNode('Menu');
+
 //all dynamic styling && appending
 p3.appendChild(page2);
 p3.appendChild(d2);

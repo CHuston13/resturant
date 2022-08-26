@@ -4,6 +4,7 @@ import _ from 'lodash';
 import './style.css';
 import Icon from './odin.png';
 import printMe from './print.js';
+import Menus from './source';
 
 
 
@@ -41,6 +42,7 @@ import printMe from './print.js';
  
    element.appendChild(btn);
    btn.classList.add('button2');
+   Menu.onclick = Menus;
   
  
  
