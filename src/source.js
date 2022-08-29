@@ -1,25 +1,37 @@
 import _ from 'lodash';
 import './style.css';
 import printMe from './print.js';
+import Icon from './burger.jpg'
 
 export default function Menus(){
     const q3 = document.getElementById('content');
     const qage2 = document.getElementById('odin');
     qage2.innerHTML = '';
     const daf = document.createElement('div');
+    const tre = document.createElement('div');
     daf.id='daffy';
     const mbtn = document.createElement('button');
     const abtn = document.createElement('button');
     const hbtn = document.createElement('button');
+    const foo = document.createElement('p');
+    const fooT = document.createTextNode('Our full menu can only be viewed in house ');
     const mt = document.createTextNode('Menu');
     const at = document.createTextNode('About');
     const ht = document.createTextNode('Home');
 
 
+    const myIcons = new Image();
 
+    myIcons.src = Icon;
+  
+  
+    daf.appendChild(myIcons);
+  
 
     q3.appendChild(daf);
-    
+    daf.appendChild(tre);
+    daf.appendChild(foo);
+    foo.appendChild(fooT);
    
     daf.appendChild(mbtn);
     daf.appendChild(abtn);
@@ -35,6 +47,8 @@ export default function Menus(){
    mbtn.classList.add('button3');
    abtn.classList.add('button2');
    hbtn.classList.add('good');
+   myIcons.classList.add('burger');
+    foo.classList.add('burgerT');
    
 
 
