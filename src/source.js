@@ -28,7 +28,7 @@ export default function Menus(){
     abtn.appendChild(at);
     hbtn.appendChild(ht);
     hbtn.onclick=refreshPage;
-    abtn.onclick=printMe;
+    abtn.onclick=remove;
 
     
    daf.classList.add('backups');
@@ -48,5 +48,13 @@ function refreshPage(){
     refresher.onclick = window.location.reload();
    }
  
+function remove(){
+  removeStyle();
+   printMe();
+}
 
-
+function removeStyle(){
+    const removeS = document.getElementById('daffy');
+   removeS.innerHTML='';
+   removeS.style.background='white';
+}

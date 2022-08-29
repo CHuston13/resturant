@@ -2,6 +2,7 @@ import _ from 'lodash';
 
 
 import './style.css'
+import Menus from './source';
 
 
 
@@ -10,6 +11,7 @@ export default function printMe() {
 const page2 = document.getElementById('odin');
 page2.innerHTML = '';
 const d2 = document.createElement('div');
+d2.id='lets';
 const d3 = document.createElement('div');
 
 const b2 = document.createElement('button');
@@ -20,6 +22,7 @@ const b3 = document.createElement('button');
 const b4 = document.createElement('button');
 const bt3 = document.createTextNode('About');
 const bt4 = document.createTextNode('Menu');
+b4.onclick=combined;
 
 //all dynamic styling && appending
 p3.appendChild(page2);
@@ -78,6 +81,16 @@ return d2;
   function refreshPage(){
    const refresher = document.getElementById('refresh');
    refresher.onclick = window.location.reload();
+  }
+
+  function removeAll(){
+    const gr = document.getElementById('lets');
+    gr.innerHTML='';
+  }
+
+  function combined(){
+    removeAll();
+    Menus();
   }
 
 
